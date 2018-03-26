@@ -52,6 +52,13 @@
   text-align: center;
 }
 
+
+/*Nav styling*/
+/*#mainNav{
+  background-color: #f8f9fa;
+}*/
+
+
 /*Link styling for portfolio grid*/
 
 a {
@@ -171,8 +178,13 @@ header.masthead {
 
 }
 
+/*About*/
 
-
+.aboutpara{
+  display: inline-block;
+  width: 50%;
+  float:right;
+}
 
 
 
