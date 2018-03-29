@@ -143,6 +143,23 @@ header.masthead {
   	color: black;
   	background-image: none;  
   	}
+/*contact*/
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }  
 }
 
 
@@ -152,6 +169,23 @@ header.masthead {
   	padding: 0;
   	color: black;
   	background-image: none;
+  }
+/*contact*/
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
   }
 
 }
@@ -163,6 +197,24 @@ header.masthead {
   	padding: 0;
   	color: black;
   	background-image: none;
+}
+/*contact*/
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }
 
 }
 
@@ -174,9 +226,28 @@ header.masthead {
   	background-image: none;
 }
 
+/*contact*/
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }
 
 
 }
+
+
 
 /*About*/
 
@@ -185,7 +256,6 @@ header.masthead {
   width: 50%;
   float:right;
 }
-
 
 
 
