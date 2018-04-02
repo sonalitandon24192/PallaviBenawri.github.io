@@ -1,3 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+
+/*Media queries*/
+
+/*@media(min-width: 360px) {
+  .sidebyside{
+    display: block;
+    width:100%;
+  }
+}*/
+
+@media(min-width:768px) {
+  header.masthead {
+    text-align: left;
+    padding: 0;
+    color: black;
+    background-image: none;  
+  }
+
+/*contact*/
+
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }  
+   
+  .sidebyside{
+    display: inline-block;
+  }
+}
+
+  /*Image*/
+
+
+
+
+@media(min-width:992px) {
+  header.masthead {
+  text-align: left;
+    padding: 0;
+    color: black;
+    background-image: none;
+}
+/*contact*/
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }
+  .sidebyside{
+  display: inline-block;
+}
+
+}
+
+@media(min-width:1200px) {
+  header.masthead {
+  text-align: left;
+    padding: 0;
+    color: black;
+    background-image: none;
+  }
+
+  .sidebyside{
+  display: inline-block;
+  }
+
+}
+
+
+/*Project content*/
+
 .text-left{
 	text-align: left;
 	vertical-align: left;
@@ -5,9 +102,20 @@
 	padding-right: 15%;
 }
 
+.quote{
+  font-size: 1.2em;
+}
+
 .bottompadding{
 	padding-bottom: 2%;
 }
+
+/*#services .text-left .textstyle{
+  font-family: Lato;
+  font-color: blue;
+
+}*/
+
 
 /*On hover- text appears on black background of low opacity*/
 
@@ -53,10 +161,37 @@
 }
 
 
-/*Nav styling*/
-/*#mainNav{
-  background-color: #f8f9fa;
-}*/
+/*Navigation styling*/
+
+
+#mainNav {
+  background-color: white;
+  box-shadow: 0 0 10px 0 #D3D3D3;
+
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #292929;
+  font-weight: 500;
+  /*text-decoration: underline;*/
+  padding-bottom: 0;
+
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active{
+  color: #292929;
+  font-weight: 500;
+  border-bottom: .16em solid #365da3;
+  padding-bottom: 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #292929;
+  font-weight: 500;
+  /*text-decoration: underline;*/
+  padding-bottom: 0;
+}
 
 
 /*Link styling for portfolio grid*/
@@ -136,95 +271,7 @@ header.masthead {
 }
 
 
-@media(min-width:768px) {
-  header.masthead {
-	text-align: left;
-  	padding: 0;
-  	color: black;
-  	background-image: none;  
-  	}
-/*contact*/
-  section#contact {
-    background-color: #f8f9fa;
-  }
 
-  section#contact .section-heading {
-    color: #000;
-  }
-
-  section#contact .form-group input,
-  section#contact .form-group textarea {
-    padding: 15px;
-  }
-
-  section#contact .form-group textarea.form-control {
-    height: 218px;
-  }  
-}
-
-
-@media(min-width:767px) {
-  header.masthead {
-	text-align: left;
-  	padding: 0;
-  	color: black;
-  	background-image: none;
-  }
-/*contact*/
-  section#contact {
-    background-color: #f8f9fa;
-  }
-
-  section#contact .section-heading {
-    color: #000;
-  }
-
-  section#contact .form-group input,
-  section#contact .form-group textarea {
-    padding: 15px;
-  }
-
-  section#contact .form-group textarea.form-control {
-    height: 218px;
-  }
-
-}
-
-
-@media(min-width:992px) {
-  header.masthead {
-	text-align: left;
-  	padding: 0;
-  	color: black;
-  	background-image: none;
-}
-/*contact*/
-  section#contact {
-    background-color: #f8f9fa;
-  }
-
-  section#contact .section-heading {
-    color: #000;
-  }
-
-  section#contact .form-group input,
-  section#contact .form-group textarea {
-    padding: 15px;
-  }
-
-  section#contact .form-group textarea.form-control {
-    height: 218px;
-  }
-
-}
-
-@media(min-width:1200px) {
-  header.masthead {
-	text-align: left;
-  	padding: 0;
-  	color: black;
-  	background-image: none;
-}
 
 /*contact*/
   section#contact {
@@ -257,15 +304,50 @@ header.masthead {
   float:right;
 }
 
+.parastyle{
+  display: inline-block;
+  width: 50%;
+  float:right;
+}
+
+
+/*Carousel*/
+
+
+/*Images*/
+
+
+.alignment{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Header*/
+
+.introdiv{
+  font-size:1.4em;
+  background-color: #eeeeee;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+}
+
+.myname{
+  font-size: 1.8em;
+  font-family: Avenir;
+  font-weight: 400;
+  font-color: #262626;
+}
 
 
 
-
-
-
-
-
-
+.heading{
+  font-family: Lato;
+  font-color: #262626;
+}
 
 
 
