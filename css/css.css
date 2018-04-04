@@ -195,7 +195,7 @@
 
 
 .portfolioactive, .acadbotactive, .contactactive, .aboutactive{
-  color: #292929;
+  font-color: #365da3 !important; 
   font-weight: 500;
   border-bottom: .16em solid #365da3;
   padding-bottom: 0;
@@ -354,6 +354,15 @@ header.masthead {
 .heading{
   font-family: Lato;
   font-color: #262626;
+}
+
+.mylogo{
+  width: 5.5%;
+  padding-right: 2%
+}
+
+.logocontainer{
+  display: inline-block;
 }
 
 

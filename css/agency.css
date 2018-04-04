@@ -114,7 +114,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #292929;
-  font-family:'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: Avenir, Helvetica, Arial, cursive;
 }
 
 /*#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
