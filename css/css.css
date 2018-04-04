@@ -179,20 +179,27 @@
 
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active{
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+  font-weight: 500;
+  /*text-decoration: underline;*/
+  padding-bottom: 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:active{
   color: #292929;
   font-weight: 500;
   border-bottom: .16em solid #365da3;
   padding-bottom: 0;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link:hover {
+
+.portfolioactive, .acadbotactive, .contactactive, .aboutactive{
   color: #292929;
   font-weight: 500;
-  /*text-decoration: underline;*/
+  border-bottom: .16em solid #365da3;
   padding-bottom: 0;
 }
-
 
 /*Link styling for portfolio grid*/
 
