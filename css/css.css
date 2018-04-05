@@ -4,12 +4,6 @@
 
 /*Media queries*/
 
-/*@media(min-width: 360px) {
-  .sidebyside{
-    display: block;
-    width:100%;
-  }
-}*/
 
 @media(min-width:768px) {
   header.masthead {
@@ -74,12 +68,6 @@
 
 
 @media(min-width:992px) {
-  header.masthead {
-  text-align: left;
-    padding: 0;
-    color: black;
-    background-image: none;
-}
 
 
 /*contact*/
@@ -106,12 +94,7 @@
 }
 
 @media(min-width:1200px) {
-  header.masthead {
-  text-align: left;
-    padding: 0;
-    color: black;
-    background-image: none;
-  }
+
 
   .sidebyside{
   display: inline-block;
@@ -136,12 +119,6 @@
 .bottompadding{
 	padding-bottom: 2%;
 }
-
-/*#services .text-left .textstyle{
-  font-family: Lato;
-  font-color: blue;
-
-}*/
 
 
 /*On hover- text appears on black background of low opacity*/
