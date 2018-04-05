@@ -55,6 +55,8 @@
     color: black;
     background-image: none;
 }
+
+
 /*contact*/
   section#contact {
     background-color: #f8f9fa;
@@ -201,6 +203,8 @@
   padding-bottom: 0;
 }
 
+
+
 /*Link styling for portfolio grid*/
 
 a {
@@ -212,39 +216,6 @@ a:hover {
   opacity: 100%;
 }
 
-
-/*
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
-  text-transform: none;
-  font-color: gray;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4:hover {
-  text-decoration: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-  font-size: 16px;
-  font-style: normal;
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-}*/
-/*
-.inside-text{
-  padding:10%;
-  text-align: center;
-}*/
-
-/*Header styling*/
-
-header.masthead {
-  text-align: left;
-  padding: 0;
-  color: black;
-  background-image: none;
-
-}
 
 /*Scaling image on hover*/
 
@@ -371,9 +342,20 @@ header.masthead {
 #sendMessageButton{
   padding:1% 2%;
   font-family: Avenir;
+  background-color: #365da3;
+  border-color: #365da3;
 }
 
 
+/*Footer*/
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #365da3;
+}
+
+.myfooter{
+  background-color: #eeeeee;
+}
 
 
 
