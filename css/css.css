@@ -21,6 +21,29 @@
 
 /*contact*/
 
+/*.myinfo{
+  padding: 0 10%;
+}
+
+.allinfo{
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactpara{
+  display: inline-block;
+}
+
+.stylecontact{
+  padding: 4%;
+}
+
+.emailadd, .phonenumber{
+  display: inline-block;
+}*/
+
   section#contact {
     background-color: #f8f9fa;
   }
@@ -42,6 +65,8 @@
     display: inline-block;
   }
 }
+
+
 
   /*Image*/
 
