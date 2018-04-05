@@ -335,10 +335,16 @@ header.masthead {
 
 .introdiv{
   font-size:1.4em;
-  background-color: #eeeeee;
-  text-align: center;
+/*  background-color: #eeeeee;
+*/  text-align: center;
   padding-top: 15%;
   padding-bottom: 15%;
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
@@ -350,19 +356,16 @@ header.masthead {
 }
 
 
-
 .heading{
   font-family: Lato;
   font-color: #262626;
+  padding-bottom: 1%;
 }
 
 .mylogo{
-  width: 5.5%;
-  padding-right: 2%
-}
-
-.logocontainer{
-  display: inline-block;
+  width: 6%;
+  padding-right: 2%;
+  padding-bottom: 1%;
 }
 
 
