@@ -388,6 +388,12 @@ a:hover {
 
 /*Footer*/
 
+ul.social-buttons li{
+  background-color: #70CFCE;
+  border-radius: 100%;
+  padding: 1%
+}
+
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #365da3;
 }
