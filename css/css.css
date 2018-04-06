@@ -55,7 +55,7 @@
     width:100%;
   }
 
-/*About*/
+  /*About*/
   .parastyle{
   display: block;
   }
@@ -63,6 +63,11 @@
   .mypicture{
     padding-bottom: 5%;
   }
+
+  .heading{
+    font-family: Lato, Helvetica;
+    font-color: #262626;
+  } 
 
 }
 
@@ -137,15 +142,16 @@
 }
 
 .myname{
-  font-size: 1.8em;
-  font-family: Avenir;
+  font-size: 1.4em;
+  font-family: Avenir, Helvetica;
   font-weight: 400;
   font-color: #262626;
 }
 
 
 .heading{
-  font-family: Lato;
+  font-size: 0.9em; 
+  font-family: Lato, Helvetica;
   font-color: #262626;
 }
 
@@ -388,6 +394,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .myfooter{
   background-color: #eeeeee;
+  padding: 55px 0;
+}
+
+footer span.copyright{
+  font-family: Lato, Helvetica;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 
