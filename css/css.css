@@ -239,17 +239,23 @@
 
 /*portfolio grid*/
 
+
+.gridtitles{
+  font-size: 1.4rem;
+}
+
+
 /*On hover- text appears on black background of low opacity*/
 #portfolio .portfolio-item:hover{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     -webkit-transition: all ease 0.25s;
   	-moz-transition: all ease 0.25s;
   	transition: all ease 0.25s;
-  	opacity:65%;
+  	opacity:100%;
  }
 
  #portfolio .portfolio-item:hover .portfolio-link .portfolio-hover {
-  opacity: 0.55;
+  opacity: 1.0;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -262,7 +268,7 @@
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: .55;
+  opacity: 0.95;
 }
 
 /*Center text on hover*/
