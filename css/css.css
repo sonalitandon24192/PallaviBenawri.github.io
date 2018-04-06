@@ -49,10 +49,13 @@
     height: 218px;
   }  
    
+
+   /*Acadbot*/
   .sidebyside{
     width:100%;
   }
 
+/*About*/
   .parastyle{
   display: block;
   }
@@ -62,12 +65,6 @@
   }
 
 }
-
-
-
-  /*Image*/
-
-
 
 
 @media(min-width:992px) {
@@ -90,10 +87,13 @@
   section#contact .form-group textarea.form-control {
     height: 218px;
   }
+
+  /*Acadbot*/
   .sidebyside{
     width:48%;
   }
 
+/*About*/
   .parastyle{
   display: inline-block;
   width: 50%;
@@ -105,11 +105,12 @@
 
 @media(min-width:1200px) {
 
-
+/*Acadbot*/
   .sidebyside{
   display: inline-block;
   }
 
+/*About*/
   .parastyle{
   display: inline-block;
   width: 50%;
