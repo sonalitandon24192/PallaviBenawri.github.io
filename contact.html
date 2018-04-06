@@ -32,7 +32,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="mylogo" src="/img/Logo.png" alt="My logo">Pallavi Benawri</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html" tabindex=0><img class="mylogo" src="/img/Logo.png" alt="My logo">Pallavi Benawri</a>
+        <div class="hidden">
+          <a href="#contact" tabindex=0>Skip to main content</a> 
+        </div>  
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -40,16 +43,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="index.html" tabindex=0>Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Acadbot.html">Acadbot</a>
+              <a class="nav-link js-scroll-trigger" href="Acadbot.html" tabindex=0>Acadbot</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+              <a class="nav-link js-scroll-trigger" href="about.html" tabindex=0>About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger contactactive" href="contact.html">Contact</a>
+              <a class="nav-link js-scroll-trigger contactactive" href="contact.html" tabindex=0>Contact</a>
             </li>
           </ul>
         </div>
@@ -60,21 +63,6 @@
 
 
     <section id="contact">
-
-      <!-- <div class="myinfo">
-        <div class="allinfo">
-          <div class="emailadd">
-            <i class="fa fa-envelope stylecontact"></i>
-            <p class="contactpara"> Email Address: </p> 
-            <p class="contactpara"> pbenawri@umich.edu </p>
-          </div>
-          <div class="phonenumber">
-            <i class="fa fa-phone stylecontact"></i>
-            <p class="contactpara"> Phone number: </p> 
-            <p class="contactpara"> +1 (734) 882-7389 </p> 
-          </div>  
-        </div>
-       </div>      -->
 
       <div class="container">
         <div class="row">
@@ -89,28 +77,28 @@
               <div class="row">
                 <div class="col-md-6"> 
                   <div class="form-group">
-                    <input class="form-control" id="name" name="name" type="text" placeholder="Name *" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Name *" required data-validation-required-message="Please enter your name." tabindex=0>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" name="email" type="email" placeholder="Email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" name="email" type="email" placeholder="Email *" required data-validation-required-message="Please enter your email address." tabindex=0>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone">
+                    <input class="form-control" id="phone" name="phone" type="tel" placeholder="Phone" tabindex=0>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" name="message" placeholder="Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" name="message" placeholder="Message *" required data-validation-required-message="Please enter a message." tabindex=0></textarea>
                     <p class="help-block text-danger"></p>
                   </div><br>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary text-uppercase submitbutton" type="submit">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-primary text-uppercase submitbutton" type="submit" tabindex=0>Send Message</button>
                 </div>
               </div>
             </form>
@@ -129,17 +117,17 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a target="_blank" href="https://www.linkedin.com/in/pallavibenawri/" aria-label="Pallavi's LinkedIn profile">
+                <a target="_blank" href="https://www.linkedin.com/in/pallavibenawri/" aria-label="Pallavi's LinkedIn profile" tabindex=0>
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="https://dribbble.com/Pallavi" aria-label="Pallavi's Dribbble profile">
+                <a target="_blank" href="https://dribbble.com/Pallavi" aria-label="Pallavi's Dribbble profile" tabindex=0>
                   <i class="fa fa-dribbble"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="https://www.behance.net/PallaviBenawri" aria-label="Pallavi's Behance profile">
+                <a target="_blank" href="https://www.behance.net/PallaviBenawri" aria-label="Pallavi's Behance profile" tabindex=0>
                   <i class="fa fa-behance"></i>
                 </a>
               </li>
