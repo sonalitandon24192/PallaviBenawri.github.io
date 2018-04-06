@@ -6,12 +6,6 @@
 
 
 @media(min-width:768px) {
-  header.masthead {
-    text-align: left;
-    padding: 0;
-    color: black;
-    background-image: none;  
-  }
 
 /*contact*/
 
@@ -56,8 +50,17 @@
   }  
    
   .sidebyside{
-    display: inline-block;
+    width:100%;
   }
+
+  .parastyle{
+  display: block;
+  }
+
+  .mypicture{
+    padding-bottom: 5%;
+  }
+
 }
 
 
@@ -88,8 +91,15 @@
     height: 218px;
   }
   .sidebyside{
+    width:48%;
+  }
+
+  .parastyle{
   display: inline-block;
+  width: 50%;
+  float:right;
 }
+
 
 }
 
@@ -100,207 +110,11 @@
   display: inline-block;
   }
 
-}
-
-
-/*Project content*/
-
-.text-left{
-	text-align: left;
-	vertical-align: left;
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-.quote{
-  font-size: 1.2em;
-}
-
-.bottompadding{
-	padding-bottom: 2%;
-}
-
-
-/*On hover- text appears on black background of low opacity*/
-
-#portfolio .portfolio-item:hover{
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transition: all ease 0.25s;
-  	-moz-transition: all ease 0.25s;
-  	transition: all ease 0.25s;
-  	opacity:65%;
- }
-
- #portfolio .portfolio-item:hover .portfolio-link .portfolio-hover {
-  opacity: 0.55;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  -webkit-transition: all ease 0.25s;
-  -moz-transition: all ease 0.25s;
-  transition: all ease 0.25s;
-  opacity: 0;
-  background: #eeeeee;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: .55;
-}
-
-/*Center text on hover*/
-
-#portfolio .portfolio-hover{
-  position: relative;
-}
-
-#portfolio .portfoliopara p{
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-/*Navigation styling*/
-
-
-#mainNav {
-  background-color: white;
-  box-shadow: 0 0 10px 0 #D3D3D3;
-
-}
-
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: #292929;
-  font-weight: 500;
-  /*text-decoration: underline;*/
-  padding-bottom: 0;
-
-}
-
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: blue;
-  font-weight: 500;
-  /*text-decoration: underline;*/
-  padding-bottom: 0;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link:active{
-  color: #292929;
-  font-weight: 500;
-  border-bottom: .16em solid #365da3;
-  padding-bottom: 0;
-}
-
-
-.portfolioactive, .acadbotactive, .contactactive, .aboutactive{
-  font-color: #365da3 !important; 
-  font-weight: 500;
-  border-bottom: .16em solid #365da3;
-  padding-bottom: 0;
-}
-
-
-
-/*Link styling for portfolio grid*/
-
-a {
-  color: black;
-}
-
-a:hover {
-  color: black;
-  opacity: 100%;
-}
-
-
-/*Scaling image on hover*/
-
-.img-fluid {
-  background-position: center center;
-  background-size: cover;
-}
-
-.img-fluid.scale{
-	transition: all .2s ease-out; 
-  width: 100%;
-  height: 0;
-  padding-bottom: 75%;
-}
-
-
-.portfolio-item:hover .img-fluid.scale { 
-	transform: scale(1.1); 
-}	
-
-.portfolio-item .portfolio-link {
-  overflow: hidden;
-}
-
-
-/*Font styling*/
-
-
-#portfolio .text-muted{
-  text-decoration: none;
-}
-
-
-
-
-/*contact*/
-  section#contact {
-    background-color: #f8f9fa;
-  }
-
-  section#contact .section-heading {
-    color: #000;
-  }
-
-  section#contact .form-group input,
-  section#contact .form-group textarea {
-    padding: 15px;
-  }
-
-  section#contact .form-group textarea.form-control {
-    height: 218px;
-  }
-
-
-}
-
-
-
-/*About*/
-
-.aboutpara{
+  .parastyle{
   display: inline-block;
   width: 50%;
   float:right;
-}
-
-.parastyle{
-  display: inline-block;
-  width: 50%;
-  float:right;
-}
-
-
-/*Carousel*/
-
-
-/*Images*/
-
-
-.alignment{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  }
 }
 
 
@@ -332,12 +146,12 @@ a:hover {
 .heading{
   font-family: Lato;
   font-color: #262626;
-  padding-bottom: 1%;
 }
 
 .mylogo{
-  width: 6%;
-  padding-right: 2%;
+  width:6%;
+  margin-right: 4%;
+  padding-left: 0;
 }
 
 
@@ -347,6 +161,216 @@ a:hover {
   background-color: #365da3;
   border-color: #365da3;
 }
+
+
+
+/*Navigation*/
+
+
+/*Skipnav*/
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+#mainNav {
+  background-color: white;
+  box-shadow: 0 0 10px 0 #D3D3D3;
+
+}
+
+.navbar-brand{
+  width:50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #292929;
+  font-weight: 500;
+  padding-bottom: 0;
+
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+  font-weight: 500;
+  padding-bottom: 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:active{
+  color: #292929;
+  font-weight: 500;
+  border-bottom: .16em solid #365da3;
+  padding-bottom: 0;
+}
+
+
+.portfolioactive, .acadbotactive, .contactactive, .aboutactive{
+  font-color: #365da3 !important; 
+  font-weight: 500;
+  border-bottom: .16em solid #365da3;
+  padding-bottom: 0;
+}
+
+
+
+/*Project content*/
+
+.text-left{
+	text-align: left;
+	vertical-align: left;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.quote{
+  font-size: 1.2em;
+}
+
+.bottompadding{
+	padding-bottom: 2%;
+}
+
+
+/*portfolio grid*/
+
+/*On hover- text appears on black background of low opacity*/
+#portfolio .portfolio-item:hover{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: all ease 0.25s;
+  	-moz-transition: all ease 0.25s;
+  	transition: all ease 0.25s;
+  	opacity:65%;
+ }
+
+ #portfolio .portfolio-item:hover .portfolio-link .portfolio-hover {
+  opacity: 0.55;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  -webkit-transition: all ease 0.25s;
+  -moz-transition: all ease 0.25s;
+  transition: all ease 0.25s;
+  opacity: 0;
+  background: #eeeeee;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: .55;
+}
+
+/*Center text on hover*/
+#portfolio .portfolio-hover{
+  position: relative;
+}
+
+#portfolio .portfoliopara p{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Link styling for portfolio grid*/
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  opacity: 100%;
+}
+
+
+/*Scaling image on hover*/
+.img-fluid {
+  background-position: center center;
+  background-size: cover;
+}
+
+.img-fluid.scale{
+	transition: all .2s ease-out; 
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+
+.portfolio-item:hover .img-fluid.scale { 
+	transform: scale(1.1); 
+}	
+
+.portfolio-item .portfolio-link {
+  overflow: hidden;
+}
+
+
+/*Font styling*/
+#portfolio .text-muted{
+  text-decoration: none;
+}
+
+
+/*contact*/
+
+  section#contact {
+    background-color: #f8f9fa;
+  }
+
+  section#contact .section-heading {
+    color: #000;
+  }
+
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px;
+  }
+
+  section#contact .form-group textarea.form-control {
+    height: 218px;
+  }
+
+
+}
+
+
+/*About*/
+
+ .parastyle{
+  display: block;
+  width: 100%;
+  float:none;
+  padding-top: 8%;
+}
+
+ .mypicture{
+    padding-bottom: 5%;
+  }
+
+.salutation{
+  font-size: 1.3rem;
+}
+
+
+/*Images*/
+
+
+.alignment{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
 /*Footer*/
