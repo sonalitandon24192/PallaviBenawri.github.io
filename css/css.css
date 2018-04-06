@@ -7,30 +7,6 @@
 
 @media(min-width:768px) {
 
-/*contact*/
-
-/*.myinfo{
-  padding: 0 10%;
-}
-
-.allinfo{
-  vertical-align: middle;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contactpara{
-  display: inline-block;
-}
-
-.stylecontact{
-  padding: 4%;
-}
-
-.emailadd, .phonenumber{
-  display: inline-block;
-}*/
 
   section#contact {
     background-color: #f8f9fa;
@@ -128,8 +104,7 @@
 
 .introdiv{
   font-size:1.4em;
-/*  background-color: #eeeeee;
-*/  text-align: center;
+  text-align: center;
   padding-top: 15%;
   padding-bottom: 15%;
   background-image: url('../img/header.jpg');
@@ -374,7 +349,7 @@ a:hover {
 }
 
 
-/*Images*/
+/*Acadbot Images*/
 
 
 .alignment{
@@ -382,8 +357,6 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 
 /*Footer*/
