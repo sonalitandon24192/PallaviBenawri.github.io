@@ -1,14 +1,29 @@
 *{
 	box-sizing: border-box;
 }
+body {
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.para{
+	font-size: 48px;
+}
 
 .styling{
+	display: inline-block;
+	width:50%;
+	border: solid 5px blue;
+	padding:5%;
+}
+
+.img2new{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
 	border: solid 5px blue;
 	padding:5%;
 
-}
-
-.inlineimg{
-
-	width: 50%;
 }
