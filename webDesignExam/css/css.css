@@ -6,12 +6,12 @@ body {
 	margin: 0;
 	line-height: 0;
 	font-size: 0;
+	background-image:url('../images/sun-pattern.png');
 }
 
 .container{
 	padding:0;
 	margin:0;
-	
 }
 
 .para{
