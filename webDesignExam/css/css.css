@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+.styling{
+	border: solid 5px blue;
+	padding:5%;
+
+}
+
+.inlineimg{
+
+	width: 50%;
+}
