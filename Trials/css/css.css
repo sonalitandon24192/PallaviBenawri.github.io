@@ -1,0 +1,77 @@
+/*.myimage{
+	background-image: url('img/imagee.jpg');
+}
+*/
+/*.imagenew{
+	background-size: cover;
+}*/
+
+/*
+.container {
+    width: 600px;
+    height: 800px;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }​
+
+
+  */
+
+
+
+  @media(min-width:768px){
+  	#hello{
+  		color: yellow;
+  	}
+  }
+
+  @media(min-width:992px){
+  	#hello{
+  		background-color: red;
+  	}
+  }
+
+  @media(min-width:1200px){
+  	#hello{
+  		background-color: green;
+  	}
+  }	
+
+
+  .layout{
+  	display: inline-block;
+  	width: 30%;
+  	}
+
+  
+  .trialimg{
+  	display: inline-block;
+  	width: 33%;
+  	object-fit: cover;
+
+  	}
+
+  	.bgclass{
+  		width: 100%;
+  		background-image: url('../img/3.png');
+  		background-position: center center;
+  	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
