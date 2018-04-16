@@ -1,13 +1,11 @@
 *{
 	box-sizing: border-box;
+}
+body {
 	padding: 0;
 	margin: 0;
 	line-height: 0;
 	font-size: 0;
-}
-
-.body{
-
 }
 
 .para{
@@ -19,6 +17,5 @@
 	width:50%;
 	border: solid 5px blue;
 	padding:5%;
-	margin:0;
 }
 
